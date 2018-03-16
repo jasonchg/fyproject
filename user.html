@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>User | Manna Bakery Cafe</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container" >
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <div class="hamburger"></div>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right" >
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#preorder">PREORDER</a></li>
+                <li><a href="#specials">SPECIALS</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart"><span class="fa fa-shopping-cart" ></span></a></li>
+                <li><button class="btn btn-default navbar-btn navbar-right" type="button"  data-toggle="modal" data-target="#myModal"><span class="fa fa-user"></span></button></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h1 class="modal-title" id="myModalLabel">Login <small style="font-size: 16px;">Members</small> </h1>
+                      </div>
+
+                      <div class="modal-body"> 
+                      
+                      <form class="form-group" action="includes/login.inc.php" method="POST">
+                        <span class="input input--kaede">
+                            <input class="input__field input__field--kaede" type="text" id="input-10" />
+                            <label class="input__label input__label--kaede" for="input-10">
+                              <span class="input__label-content input__label-content--kaede">ID/ Email</span>
+                            </label>
+                          </span>
+                          <span class="input input--kaede">
+                          <input class="input__field input__field--kaede" type="text" id="input-11" />
+                          <label class="input__label input__label--kaede" for="input-11">
+                            <span class="input__label-content input__label-content--kaede">Password</span>
+                          </label>
+                        </span>
+                          <button type="submit" name="submit" class="button button-brown "> Login</button>
+                          <a  href="#" class="btn btn-link">Forget Password</a> 
+                          <a class="btn btn-link navbar-right" href="signup.php">Sign Up</a> 
+                      </form>
+                      
+                      </div>
+                      <div class="modal-footer">
+                    
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+                    
+                  
+                    
+                      </div>
+                  </div>
+                  </div>
+                  </div>
+</header>
+ <div class="container" style="margin-top:3em;">      
+   
+    <div class="user user-register col-md-12">
+        <div class="content">
+         
+            <h1 class="user user-header">Register</h1>
+            <form action="#">
+            <span class="input input--isao">
+              <input class="input__field input__field--isao" type="text" id="input-40" />
+              <label class="input__label input__label--isao" for="input-40" data-content="First Name^">
+                <span class="input__label-content input__label-content--isao">First Name</span>
+              </label>
+            </span>
+            <span class="input input--isao">
+                <input class="input__field input__field--isao" type="text" id="input-41" />
+                <label class="input__label input__label--isao" for="input-41" data-content="Second Name^">
+                  <span class="input__label-content input__label-content--isao">Second Name</span>
+                </label>
+              </span>
+              <span class="input input--isao">
+                  <input class="input__field input__field--isao" type="password" id="input-42" />
+                  <label class="input__label input__label--isao" for="input-42" data-content="Password^">
+                    <span class="input__label-content input__label-content--isao">Password</span>
+                  </label>
+                </span>
+                <span class="input input--isao">
+                    <input class="input__field input__field--isao" type="text" id="input-43" />
+                    <label class="input__label input__label--isao" for="input-43" data-content="Email^">
+                      <span class="input__label-content input__label-content--isao">Email</span>
+                    </label>
+                  </span>
+                  <span class="input input--isao">
+                      <input class="input__field input__field--isao" type="text" id="input-44" />
+                      <label class="input__label input__label--isao" for="input-44" data-content="Contact^">
+                        <span class="input__label-content input__label-content--isao">Contact</span>
+                      </label>
+                    </span>
+                    <br>
+                    <button type="submit" name="submit" class="button button-brown "> Sign Up</button>
+          </form>
+          </div>
+        </div>
+      </div>       
+
+
+
+
+
+</body>
+  <footer>
+        <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                <h4>ABOUT US</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ex, quas maxime culpa explicabo magni illo.</p>
+                <p><strong>Lorem ipsum dolor sit amet consectetur.</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsam necessitatibus nemo.</p>
+              </div>
+              <div class="col-md-4">
+                  <h4>FOLLOW US</h4>
+                  <ul><li class="social-icon"><a href=""><span class="fa fa-facebook"></span></a></li>
+                    <li class="social-icon"><a href=""><span class="fa fa-instagram"></span></a></li>
+                    <li class="social-icon"><a href=""><span class="fa fa-twitter"></span></a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                 <h4>CONTACT US</h4>
+                 <ul><li><span class="fa fa-phone"></span>  010-00000</li>
+                    <li><span class="fa fa-home"></span>  Lot.1234 Jalan Song Area 93220 Kuching</li></ul>
+                  </div>
+          </div>
+      </footer>
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- <script src="js/main.js" ></script> -->
+        <script src="js/bootstrap.min.js"></script>
+        <script scr="js/classie.js" ></script>
+      </body>
+    </html>
+    
