@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     text-decoration: none;
-    /* transition: all ease-in-out 500ms; */
+    transition: all ease-in-out 500ms;
 }
 .clearfix, 
 .clearfix::after{
